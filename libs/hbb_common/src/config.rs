@@ -1034,7 +1034,7 @@ impl Config {
     pub fn get_salt() -> String {
         let mut salt = CONFIG.read().unwrap().salt.clone();
         if salt.is_empty() {
-            salt = Config::get_auto_password(6);
+            salt = Config::get_auto_password(5);
             Config::set_salt(&salt);
         }
         salt
