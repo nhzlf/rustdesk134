@@ -199,7 +199,7 @@ class _DesktopHomePageState extends State<DesktopHomePage>
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          translate("ID"),
+                          translate("IDZ"),
                           style: TextStyle(
                               fontSize: 14,
                               color: Theme.of(context)
