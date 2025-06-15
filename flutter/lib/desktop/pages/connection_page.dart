@@ -98,10 +98,10 @@ class _OnlineStatusWidgetState extends State<OnlineStatusWidget> {
                   //              fontSize: em),
                   //        ),
                   //      ),
-                      ],
-                    ),
-                  ),
-                )
+                  //    ],
+                 //   ),
+                //  ),
+              //  )
               ],
             ),
           ),
